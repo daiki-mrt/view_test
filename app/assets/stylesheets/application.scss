@@ -126,6 +126,7 @@ ul {
   & a {
     color: #eeeeee;
     text-decoration: none;
+    font-weight: bold;
   }
 
   .header-left {
@@ -133,7 +134,7 @@ ul {
   }
 
   .header-right {
-    font-size: 20px;
+    font-size: 18px;
 
     .header-menu {
       display: flex;
