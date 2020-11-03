@@ -1,9 +1,6 @@
 @import "reset";
 @import "users";
 
-*{
-  box-sizing: border-box;
-}
 
 .header {
   height: 60px;
@@ -32,3 +29,14 @@
   }
 }
 
+.footer {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .footer-message {
+    color: grey;
+  }
+}
